@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import BondLogo from '../../public/img/bond_logo_white.png'
 import { IconLink } from '@/components/IconLink'
 import { Logo } from '@/components/Logo'
 import { SignUpForm } from '@/components/SignUpForm'
@@ -36,23 +36,18 @@ function XIcon(props) {
 export function Intro() {
   return (
     <>
-      <div>
-        <Link href="/">
-          <Logo className="inline-block h-8 w-auto" />
-        </Link>
-      </div>
+    
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
         Bond International Holdings {' '}
-        <span className="text-sky-300">building for the future</span>
+        <span className="text-sky-300">building the future</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Bond International Holdings is the global holdings company for Bond's internaitonal 
-        entites and operations.
+      Holding company for Bond's global entities and operations.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
        
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
+        <IconLink href="https://github.com/marcus-strych" icon={GitHubIcon} className="flex-none">
           GitHub
         </IconLink>
       
@@ -66,7 +61,7 @@ export function IntroFooter() {
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
       Brought to you by{' '}
     
-        Marcus
+       Bond
       
     </p>
   )
