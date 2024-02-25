@@ -15,7 +15,7 @@ Our mission is to drive growth, innovation, and value creation across all our in
 
 For more information about Bond International Holdings and our operations, please contact us:
 
-- **Email**: contact@bondinternationalholdings.com
+- contact@bondinternationalholdings.com
 
 ---
 
