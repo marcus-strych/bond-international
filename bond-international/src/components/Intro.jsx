@@ -44,7 +44,7 @@ export function Intro() {
       <p className="mt-4 text-sm/6 text-gray-300">
       Holding company for Bond's global entities and operations.
       </p>
-      <SignUpForm />
+  
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
        
         <IconLink href="https://github.com/marcus-strych" icon={GitHubIcon} className="flex-none">
